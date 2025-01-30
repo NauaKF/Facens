@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    background-color: #0B855C;
+    width: 100%;
+    height: 100px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 4px solid black;
+    font-family: Lato;
+    font-size: 22px;
+}
+
+header #cabecalho{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+}
+
+#cotacao{
+    margin-left: 250px;
+    margin-right: 115px;
+    text-decoration: none;
+    color: white;
+    border-width: 3px;
+    border-radius: 100px;
+}
+
+#logotipo{
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#minilogos{
+    width: 50px;
+    height: 50px;
+    margin-left: -5px;
+    margin-top: 50px;
+}
+
+#conteudo{
+    background-color: white;
+}
+
+#titulo{
+    color: #0B855C;
+    font-family: Lato;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#mensagem{
+    font-family: Lato;
+    background-color: #0B855C;
+    margin-top: 25px;
+    font-size: 19px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 90%;
+    height: 90px;
+}
+
+input{
+    display: block;
+}
+
+#texto{
+    margin-top: 30px;
+}
+
+#texto, #e-mail, #assunto{
+    border-radius: 100px;
+    width: 50%;
+    border: solid 2px #0B855C;
+    margin-left: 25%;
+    height: 50px;
+}
+
+#celular{
+    border-radius: 25px;
+    width: 50%;
+    border: solid 2px #0B855C;
+    margin-left: 25%;
+    height: 50px;
+}
+
+#textarea{
+    border-radius: 25px;
+    width: 50%;
+    border: solid 2px #0B855C;
+    margin-left: 25%;
+}
+
+#botton{
+    font-family: Lato;
+    background-color: #1B923A;
+    color: white;
+    border-radius: 100px;
+    height: 70px;
+    width: 450px;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid black; 
+    margin-left: 32%;
+}
+
+.bottom:focus, .bottom::-moz-focus-inner{
+    outline:none;
+    border:none;
+}
+
+  .bottom{
+    font-family: Lato;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    height: 80px;
+    width: 330px;
+    border-radius: 100px;
+  }
+
+  .bottom{
+    background: #C4CFC9;
+    color: #0B855C;
+    box-shadow:0 5px 0 #97A29C;
+  }
+
+  .bottom:hover{
+    background:#0B855C;
+    box-shadow:0 5px 0 black;
+    color: white;
+  }
+
+  .bottom:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
+
+#fotodenuncia{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: 130px;
+    margin-top: -10px;
+}
+
+#fotosugestao{
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: 120px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+#fotosolicitacao{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin-left: 130px;
+    margin-top: -8px;
+    margin-bottom: -5px;
+}
+
+#fotoelogio{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin-left: 130px;
+    margin-top: -8px;
+    margin-bottom: -5px;
+}
+
+#botoescima, #botoesbaixo{
+    display: flex;
+    margin-left: 25%;
+}
+
+#barra{
+    height: 35px;
+    margin-top: 16px;
+}

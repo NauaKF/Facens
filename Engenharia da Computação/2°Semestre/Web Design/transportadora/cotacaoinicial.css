@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    background-color: #0B855C;
+    width: 100%;
+    height: 100px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 4px solid black;
+    font-family: Lato;
+    font-size: 22px;
+}
+
+header #cabecalho{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+}
+
+#cotacao{
+    margin-left: 250px;
+    margin-right: 115px;
+    text-decoration: none;
+    color: white;
+    border-width: 3px;
+    border-radius: 100px;
+}
+
+#logotipo{
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#minilogos{
+    width: 50px;
+    height: 50px;
+    margin-left: -5px;
+    margin-top: 50px;
+}
+
+#image{
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+body{
+    background-color: black;
+}
+
+.imagem {
+    width: auto;
+    height: auto;
+}
+
+.texto {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 160px;
+    margin-left: 100px;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+}
+
+.titulo{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 200px;
+    margin-left: 65%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+}
+
+.topicoconfianca{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 270px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 26px;
+}
+
+.topicoclique{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 380px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 26px;
+}
+
+.topicoqualidade{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 490px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 26px;
+}
+
+.topicoinformado{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 620px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 26px;
+}
+
+.conteudoconfianca{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 310px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.conteudoconfianca2{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 325px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.conteudoclique{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 420px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.conteudoclique2{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 435px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+    }
+
+.conteudoqualidade{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 530px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.conteudoqualidade2{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 550px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.conteudoqualidade3{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 570px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.conteudoinformado{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 660px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.conteudoinformado2{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 680px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.conteudoinformado3{
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 700px;
+    margin-left: 70%;
+    width: auto;
+    height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.form-group{
+    position: absolute;
+    color: black;
+    top: 300px;
+    margin-left: 50px;
+    width: auto;
+    height: 2px;
+    font-family: Lato;
+    font-size: 25px;
+}
+
+#confianca{
+    position: absolute;
+    top: 275px;
+    margin-left: 65%;
+    width: 64px;
+    height: 64px;
+}
+
+#clique{
+    position: absolute;
+    top: 385px;
+    margin-left: 65%;
+    width: 64px;
+    height: 64px;
+}
+
+#qualidade{
+    position: absolute;
+    top: 515px;
+    margin-left: 65%;
+    width: 64px;
+    height: 64px;
+}
+
+#informado{
+    position: absolute;
+    top: 635px;
+    margin-left: 65%;
+    width: 64px;
+    height: 64px;
+}
+
+#quantidade, #notafiscal, #altura, #largura, #comprimento{
+    text-align: left;
+    border-radius: 50px;
+    margin-top: -5px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#barra{
+    height: 35px;
+    margin-top: 16px;
+}
+
+#botton{
+    border-radius: 50px;
+    background-color:#1B923A;
+    border-color: black;
+    color: white;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+
+}

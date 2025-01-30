@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    background-color: #0B855C;
+    width: 100%;
+    height: 100px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 4px solid black;
+    font-family: Lato;
+    font-size: 22px;
+}
+
+header #cabecalho{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+}
+
+#cotacao{
+    margin-left: 250px;
+    margin-right: 115px;
+    text-decoration: none;
+    color: white;
+    border-width: 3px;
+    border-radius: 100px;
+}
+
+#logotipo{
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#minilogos{
+    width: 50px;
+    height: 50px;
+    margin-left: -5px;
+    margin-top: 50px;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Lato;
+    color: rgb(29, 29, 29);
+}
+
+body{
+    background-color: #13CE66;
+}
+
+#textarea{
+    width: 75%;
+    margin-left: 11%;
+    background-color: #FFFFFF;
+    border: 2px solid #13CE66;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Lato;
+    border-bottom: auto;
+}
+
+#conteudo{
+    background-color: white;
+    height: auto;
+}
+
+#rodaperastreamento{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+
+footer #rodaperastreamento{
+    background-color: white;
+}
+
+#barra{
+    height: 35px;
+    margin-top: 16px;
+}
+
+#total{
+    display: flex;
+    margin-top: 100px;
+    font-family: Lato;
+    margin-bottom: -100px;
+}
+
+#separado{
+    font-size: 28px;
+    margin-top: -230px;
+    margin-left: 370px;
+}
+
+#transito{
+    font-size: 28px;
+    margin-top: -230px;
+    margin-left: 60px;
+}
+
+#entregue{
+    font-size: 28px;
+    margin-top: -230px;
+    margin-left: 60px;
+}
+
+#barraprogresso{
+    width: 50%;
+    margin-top: -80px;
+    margin-left: 300px;
+}
+
+#botton{
+    font-family: Lato;
+    background-color: #1B923A;
+    color: white;
+    border-radius: 50px;
+    height: 70px;
+    width: 35%;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid black; 
+}
+
+.bottom:focus, .bottom::-moz-focus-inner{
+    outline:none;
+    border:none;
+}
+
+  .bottom{
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    height: 120px;
+    width: 25%;
+    border-radius: 100px;
+    margin-left: 15%;
+  }
+
+  .bottom{
+    background: #C4CFC9;
+    color: #000000;
+    box-shadow:0 5px 0 #97A29C;
+  }
+
+  .bottom:hover{
+    background:#0B855C;
+    box-shadow:0 5px 0 black;
+    color: white;
+  }
+
+  .bottom:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
+
+  #fotomaps{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: 125px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+  }
+
+  #fotoprecos{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: 135px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Calculadora de média</h1>
+        <p>Descubra qual a sua média das duas maiores notas</p>
+        <input type="number" placeholder="Nota 1" id="n1"> </input>
+        <input type="number" placeholder="Nota 2" id="n2"> </input>
+        <input type="number" placeholder="Nota 3" id="n3"> </input>
+        <button onclick="calc()" id="botao"> Calcular </button>
+        <input type="text" id="resultado" readonly placeholder="resultado"/>
+    <script>
+        function calc() {
+            var n1 = Number(document.getElementById('n1').value);
+            var n2 = Number(document.getElementById('n2').value);
+            var n3 = Number(document.getElementById('n3').value);
+            var media;
+            
+            //maior 2
+            if(n1 >= n2 && n2 >= n3){
+                media = (n1 + n2) / 2;
+            }
+            else if(n2 >= n1 && n3 >= n1){
+                media = (n2 + n3) / 2;
+            }
+            else if(n3 >= n2 && n1 >= n2){
+                media = (n3 + n1) / 2;
+            }
+            else{
+                media = (n1 + n2) / 2;
+            }
+            document.getElementById('resultado').value = media;
+        }
+    </script>
+</body>
+</html>

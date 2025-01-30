@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    background-color: #0B855C;
+    width: 100%;
+    height: 100px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 4px solid black;
+    font-family: Lato;
+    font-size: 22px;
+}
+
+header #cabecalho{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+}
+
+#cotacao{
+    margin-left: 250px;
+    margin-right: 115px;
+    text-decoration: none;
+    color: white;
+    border-width: 3px;
+    border-radius: 100px;
+}
+
+#logotipo{
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#minilogos{
+    width: 50px;
+    height: 50px;
+    margin-left: -5px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #2C3C41;
+    border-top: 4px solid black;
+    width: 100%;
+    height: 250px;
+}
+
+#total{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+#atendimento{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contato{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#carga{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#rodape{
+    color: black;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+#text{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+#body{
+    width: 100%;
+    height: auto;
+}
+
+#foto{
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+}
+
+#seta{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+#whats{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 45px;
+}
+
+#whatsapp{
+    display: flex;
+}
+
+#telefone{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+#tel{
+    display: flex;
+    margin-top: 15px;
+}
+
+#email{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#mail{
+    display: flex;
+}
+
+#barra{
+    height: 35px;
+    margin-top: 16px;
+}
+
+#faleconosco{
+    font-family: Lato;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    background-color: #0B855C;
+    margin-top: 30px;
+}
+
+#text2{
+    color: white;
+    margin-top: 15px;
+}

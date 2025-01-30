@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Elementos por ID </title>
+</head>
+<body>
+    <h2> Selecionando elementos do documento por meio da Classe </h2>
+    <form name= "formularioEntrada">
+        <label for="nome"> Nome </label>
+        <input type="text" name="nome" class="entrada">
+        <label for="senha"> Senha </label>
+        <input type="text" name="senha" class="entrada">
+        <button onclick="Receber()"> Receber </button>
+    </form>
+
+    <script>
+        function Receber()
+        {
+            var nome = document.getElementsByClassName('entrada')[0].value;
+            var nomeF = document.forms['formularioEntrada']['nome'].value;
+            var senhaF = document.forms['formularioEntrada']['senha'].value;
+        }
+    </script>
+
+
+</body>
+</html>

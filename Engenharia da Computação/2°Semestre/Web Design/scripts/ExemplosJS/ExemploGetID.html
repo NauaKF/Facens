@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Elementos por ID </title>
+</head>
+<body>
+    <h2> Selecionando elementos do documento por meio do ID </h2>
+    <p id="idNome"> Nome: </p>
+    <form>
+        <!--
+        <label for="nome"> Nome </label>
+        <input type="text" name="nome" id="">
+        -->
+        <button onclick="Receber()"> Receber </button>
+    </form>
+
+    <script>
+        function Receber()
+        {
+           let nome = prompt("Insira seu nome:");
+           window.alert("O nome informado "+ nome);
+
+           if(nome == "" || nome == null)
+           {
+               alert("Não informado nome");
+           }
+           else
+           {
+                var objnome = document.getElementById("idNome");
+
+                document.getElementById("idNome").textContent = objnome.textContent+ "  "+ nome;
+           }
+        }
+
+    </script>
+
+
+</body>
+</html>

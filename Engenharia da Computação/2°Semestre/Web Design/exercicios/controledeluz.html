@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Controle de Lâmpadas </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <main>
+    <div>
+        <img src="/exercicios/imagens/luzLigada.gif" alt="LâmpadaLigada" id="lampligada">
+    </div>
+
+    <div>
+    <button type="button" class="btn btn-outline-warning" onclick= "ligar()"> ACENDER </button>
+    <button type="button" class="btn btn-outline-dark" onclick= "desligar()"> APAGAR </button>
+    <button type="button" class="btn btn-outline-success" onclick= "aparecer()" > APARECER </button>
+    <button type="button" class="btn btn-outline-danger" onclick= "desaparecer()"> DESAPARECER </button>
+    </div>
+    </main>
+
+    <script>
+        var lampada = document.getElementById("lampligada");
+
+        function ligar(){
+            lampada.src = "/exercicios/imagens/luzLigada.gif";  
+        }
+
+        function desligar(){
+            lampada.src = "/exercicios/imagens/luzDesligada.gif";
+        }
+
+        function aparecer(){
+            lampada.style.display = "block";
+        }
+
+        function desaparecer(){
+            lampada.style.display = "none";
+        }
+    </script>
+
+    <style>
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</body>
+</html>

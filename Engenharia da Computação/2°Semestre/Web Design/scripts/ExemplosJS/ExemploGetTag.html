@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Elementos por ID </title>
+</head>
+<body>
+    <h2> Selecionando elementos do documento por meio da Tag </h2>
+    <p id="idNome"> Nome: </p>
+    <p id="idSenha"> Senha: </p>
+    <form>
+        <!--
+        <label for="nome"> Nome </label>
+        <input type="text" name="nome" id="">
+        -->
+        <button onclick="Receber()"> Receber </button>
+    </form>
+
+    <script>
+        function Receber()
+        {
+           let nome = window.prompt("Insira seu nome:");
+           window.alert("O nome informado "+ nome);
+
+           console.log(document.getElementsByTagName("p")[0].innerHTML); //pega o primeiro parágrafo
+           console.log(document.getElementsByTagName("p")[1].textContent); //pega o segundo parágrafo
+        }
+    </script>
+
+
+</body>
+</html>
+
